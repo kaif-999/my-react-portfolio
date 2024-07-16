@@ -5,7 +5,7 @@ import { FadeIn } from "./FadeIn";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Professional Coder.", "Full Stack Developer.", "UI / UX Designer.", "Frontend Developer", ],
+    words: ["Professional Coder.", "Full Stack Developer.", "UI / UX Designer.", "Frontend Developer.", ],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -23,9 +23,7 @@ const LeftBanner = () => {
           <Cursor cursorStyle="|" cursorColor="#ff014f" />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wider">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+        Hi! I'm kaif, a dedicated web developer with a passion for creating engaging and user-friendly websites. With expertise in both front-end and back-end technologies, I enjoy turning complex problems into elegant solutions. Let's build something amazing together!
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
