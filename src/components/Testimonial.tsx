@@ -109,11 +109,11 @@ const Testimonial = () => {
                   />
                   <div className="w-full flex flex-col justify-end">
                     <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                      Bound - Trolola
+                      Mumbai - India
                     </p>
-                    <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                    <h3 className="text-2xl font-bold">Faiz Patel</h3>
                     <p className="text-base tracking-wide text-gray-500">
-                      Operation Officer
+                     Founder of Humsafar Group
                     </p>
                   </div>
                 </div>
@@ -123,10 +123,10 @@ const Testimonial = () => {
                     <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                       <div>
                         <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                          Travel Mobile App Design.
+                          Builds Humsafar metrimonial website.
                         </h3>
                         <p className="text-base text-gray-400 mt-3">
-                          via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                          via Upwork - Mar 4, 2023 - Aug 30, 2023 test
                         </p>
                       </div>
                       <div className="text-yellow-500 flex gap-1">
@@ -138,11 +138,7 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      A dolorum, eos natus ipsum numquam veniam officia
-                      necessitatibus ratione quos debitis exercitationem
-                      repudiandae facilis id neque nihil accusantium
-                      perspiciatis repellat? Iste.
+                    "I am incredibly impressed with the website Humsafar.com developed for our company. His technical skills are top-notch, and he have an exceptional eye for design. The final product not only looks fantastic but also provides a seamless experience for our users.
                     </p>
                   </div>
                 </div>
@@ -160,11 +156,11 @@ const Testimonial = () => {
                   />
                   <div className="w-full flex flex-col justify-end">
                     <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                      Bound - Trolola
+                      UK - Luxemburg
                     </p>
-                    <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                    <h3 className="text-2xl font-bold">Qamar Khan</h3>
                     <p className="text-base tracking-wide text-gray-500">
-                      Operation Officer
+                      Q&A Analyst
                     </p>
                   </div>
                 </div>
@@ -189,11 +185,7 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      A dolorum, eos natus ipsum numquam veniam officia
-                      necessitatibus ratione quos debitis exercitationem
-                      repudiandae facilis id neque nihil accusantium
-                      perspiciatis repellat? Iste.
+                    kaif demonstrated a deep understanding of our needs and provided innovative solutions to potential challenges. The project was completed on time and within budget, and the ongoing support has been excellent.
                     </p>
                   </div>
                 </div>
@@ -211,9 +203,9 @@ const Testimonial = () => {
                   />
                   <div className="w-full flex flex-col justify-end">
                     <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                      Bound - Trolola
+                      Mumbai - India
                     </p>
-                    <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                    <h3 className="text-2xl font-bold">Dr Shaikh Rahin</h3>
                     <p className="text-base tracking-wide text-gray-500">
                       Operation Officer
                     </p>
