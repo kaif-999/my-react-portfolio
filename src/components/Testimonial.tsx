@@ -123,7 +123,7 @@ const Testimonial = () => {
                     <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                       <div>
                         <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                          Builds Humsafar metrimonial website.
+                          Builds Humsafar Metrimonial Website
                         </h3>
                         <p className="text-base text-gray-400 mt-3">
                            Mar 4, 2023 - Aug 30, 2023 
@@ -170,10 +170,10 @@ const Testimonial = () => {
                     <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                       <div>
                         <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                          Travel Mobile App Design.
+                          Build Buisness Portfolio Website
                         </h3>
                         <p className="text-base text-gray-400 mt-3">
-                          via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                           Mar 4, 2015 - Aug 30, 2021 
                         </p>
                       </div>
                       <div className="text-yellow-500 flex gap-1">
@@ -224,7 +224,7 @@ const Testimonial = () => {
                           Travel Mobile App Design.
                         </h3>
                         <p className="text-base text-gray-400 mt-3">
-                          via Upwork - Mar 4, 2015 - Aug 30, 2021 
+                            Mar 4, 2015 - Aug 30, 2021 
                         </p>
                       </div>
                       <div className="text-yellow-500 flex gap-1">
@@ -236,11 +236,7 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      A dolorum, eos natus ipsum numquam veniam officia
-                      necessitatibus ratione quos debitis exercitationem
-                      repudiandae facilis id neque nihil accusantium
-                      perspiciatis repellat? Iste.
+                     I build website for my hospital the service is very good they understand our requirment and built website as per my requirment. and i am very happy to share my experience.
                     </p>
                   </div>
                 </div>

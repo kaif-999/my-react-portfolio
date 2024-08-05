@@ -18,7 +18,7 @@ const Education = () => {
           <ResumeCard
             title="BSc in Computer Science"
             subTitle="University of Mumbai (2018 - 2021)"
-            result="3.90/4"
+            result="69%"
             des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
           />
           <ResumeCard
