@@ -1,6 +1,6 @@
 import Title from "./Title";
 import ProjectsCard from "./ProjectsCard";
-import { projectOne, projectThree, projectTwo } from "../assets";
+import { projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix } from "../assets";
 import { FadeIn } from "./FadeIn";
 
 const Projects = () => {
@@ -39,19 +39,19 @@ const Projects = () => {
             title="SOCIAL MEDIA CLONE"
             des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectThree}
+            src={projectFour}
           />
           <ProjectsCard
             title="E-commerce Website"
             des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectOne}
+            src={projectFive}
           />
           <ProjectsCard
             title="Chatting App"
             des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectTwo}
+            src={projectSix}
           />
         </div>
       </FadeIn>
