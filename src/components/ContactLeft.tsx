@@ -1,4 +1,4 @@
-import { FaFacebookF, FaYoutube, FaLinkedinIn, FaInstagram, FaWhatsapp, FaGithub  } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaInstagram, FaWhatsapp, FaGithub  } from "react-icons/fa";
 import { contactImg } from "../assets";
 
 const ContactLeft = () => {
