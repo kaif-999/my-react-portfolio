@@ -1,146 +1,211 @@
-import { FaFacebookF, FaLinkedinIn, FaYoutube } from "react-icons/fa";
-import { logo } from "../assets";
+import Title from "./Title";
 import { FadeIn } from "./FadeIn";
 
-const Footer = () => {
+const ProjectList = () => {
   return (
-    <FadeIn className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
-      <div className="w-full h-full flex flex-col gap-8">
-        <img className="w-32" src={logo} alt="logo" />
-        <div className="flex gap-4">
-          <a href="#" target="_blank">
-            <span className="bannerIcon">
-              <FaYoutube />
-            </span>
-          </a>
-          <a
-            href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
-            target="_blank"
-          >
-            <span className="bannerIcon">
-              <FaLinkedinIn />
-            </span>
-          </a>
-          <a href="" target="_blank">
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
-          </a>
+    <>
+  <FadeIn>
+
+ <div className="flex justify-center items-center text-center m py-20">
+          <Title
+            title=""
+            des="LINKS OF THE PROJECTS"
+          />
         </div>
-      </div>
+        </FadeIn>
+    <FadeIn className="w-full py-5 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
+                
       <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
-          Quick Link
+           Wordpress
         </h3>
         <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
           <li>
+            <a href="#">
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              About
+              Project 1
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
+            </a>
           </li>
           <li>
+             <a href="#">
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Portfolio
+              Project 2
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
+            </a>
           </li>
           <li>
+            <a href="#">
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Services
+              Project 3
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
+            </a>
           </li>
           <li>
+            <a href="#">
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Blog
+              Project 4
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
+            </a>
           </li>
           <li>
+            <a href="#">
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Contact
+              Project 5
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
+            </a>
           </li>
         </ul>
       </div>
       <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
-          RESOURCES
+          Wordpress
         </h3>
         <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
           <li>
+             <a href="#">
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Authentication
+              Project 1
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
+            </a>
           </li>
           <li>
+            <a href="#">
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              System Status
+              Project 2
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
+            </a>
           </li>
           <li>
+            <a href="#">
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Terms of Service
+              Project 3
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
+            </a>
           </li>
           <li>
+            <a href="#">
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Pricing
+              Project 4
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
+            </a>
           </li>
           <li>
+             <a href="#">
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Over Right
+              Project 5
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
+            </a>
           </li>
         </ul>
       </div>
       <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
-          DEVELOPERS
+HTML/ CSS /JS
+        </h3>
+        <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
+          <li>
+           <a href="#">
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Project 1
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+            </a>
+          </li>
+          <li>
+             <a href="#">
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Project 2
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Project 3
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+            </a>
+          </li>
+          <li>
+           <a href="#">
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Project 4
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+            </a>
+          </li>
+          <li>
+           <a href="#">
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Project 5
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="w-full h-full">
+        <h3 className="text-xl uppercase text-designColor tracking-wider">
+          WEB APPS
         </h3>
         <ul className="flex flex-col gap-4 font-titleFont font-medium overflow-hidden py-6">
           <li>
+             <a href="#">
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Documentation
+              Project 1
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
+            </a>
           </li>
           <li>
+            <a href="#">
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Authentication
+              Project 2
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
+            </a>
           </li>
           <li>
+            <a href="#">
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              API Reference
+              Project 3
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
+            </a>
           </li>
           <li>
+             <a href="#">
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Support
+              Project 4
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
+            </a>
           </li>
           <li>
+             <a href="#">
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Open Source
+              Project 5
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
+            </a>
           </li>
         </ul>
       </div>
     </FadeIn>
+    </>
   );
 };
 
-export default Footer;
+export default ProjectList;

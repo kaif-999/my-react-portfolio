@@ -32,20 +32,20 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+            <a href="" target="_blank">
               <span className="bannerIcon">
                 <FaYoutube />
               </span>
             </a>
             <a
-              href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
+              href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
               target="_blank"
             >
               <span className="bannerIcon">
                 <FaLinkedinIn />
               </span>
             </a>
-            <a href="https://www.facebook.com/Noorlalu143/" target="_blank">
+            <a href="" target="_blank">
               <span className="bannerIcon">
                 <FaFacebookF />
               </span>
