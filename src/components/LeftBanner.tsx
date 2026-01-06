@@ -1,6 +1,6 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaYoutube, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { FaFacebookF, FaYoutube, FaLinkedinIn, FaReact, FaHtml5,FaCss3Alt,FaJs,FaBootstrap,  FaWordpress,FaShopify    } from "react-icons/fa";
+import { SiTailwindcss, SiFigma, SiNextdotjs  } from "react-icons/si";
 import { FadeIn } from "./FadeIn";
 
 const LeftBanner = () => {
@@ -56,7 +56,7 @@ const LeftBanner = () => {
           <h2 className="text-base uppercase font-titleFont mb-4">
             BEST SKILL ON
           </h2>
-          <div className="flex gap-4">
+          <div className="flex flex-wrap gap-4">
             <span className="bannerIcon">
               <FaReact />
             </span>
@@ -68,6 +68,29 @@ const LeftBanner = () => {
             </span>
             <span className="bannerIcon">
               <SiFigma />
+            </span>
+            <span className="bannerIcon">
+              <FaHtml5 />
+            </span>
+            <span className="bannerIcon">
+              <FaCss3Alt />
+
+            </span>
+            <span className="bannerIcon">
+              <FaJs />
+            </span>
+            <span className="bannerIcon">
+              <FaBootstrap />
+
+            </span>
+            <span className="bannerIcon">
+              <FaWordpress />
+
+            </span>
+            <span className="bannerIcon">
+              <FaShopify />
+
+
             </span>
           </div>
         </div>
