@@ -15,47 +15,50 @@ const ContactLeft = () => {
           Web Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-        As a skilled web developer with 2.4 years of experience, I specialize in creating dynamic, responsive, and user-friendly websites and web applications. My expertise spans frontend development, allowing me to deliver comprehensive solutions tailored to meet the unique needs of each client.
+        As a skilled web developer with 3.10 years of experience, I specialize in creating dynamic, responsive, and user-friendly websites and web applications. My expertise spans frontend development, allowing me to deliver comprehensive solutions tailored to meet the unique needs of each client.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+91670 08427</span>
+          Phone: <a href="tel:+91916700112"> <span className="text-lightText">+91 91670 01129</span></a>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">idrisikaif8427@gmail.com</span>
+          Email:<a href="mailto:ikwebdeveloper00@gmail.com"> <span className="text-lightText">ikwebdeveloper00@gmail.com</span></a>
+        </p>
+        <p className="text-base text-gray-400 flex items-center gap-2">
+          Email: <a href ="mailto:idrisikaif8427@gmail.com"><span  className="text-lightText">idrisikaif8427@gmail.com</span></a>
         </p>
       </div>
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          {/* <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+          {/* <a href="" target="_blank">
             <span className="bannerIcon">
               <FaYoutube />
             </span>
           </a> */}
-          <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+          <a href="https://github.com/kaif-999/" target="_blank">
             <span className="bannerIcon">
             <FaGithub />
             </span>
           </a>
           <a
-            href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
+            href=""
             target="_blank"
           >
             <span className="bannerIcon">
               <FaLinkedinIn />
             </span>
           </a>
-          <a href="https://www.facebook.com/Noorlalu143/" target="_blank">
+          <a href="" target="_blank">
             <span className="bannerIcon">
               <FaFacebookF />
             </span>
           </a>
-          <a href="https://www.facebook.com/Noorlalu143/" target="_blank">
+          <a href="" target="_blank">
             <span className="bannerIcon">
             <FaInstagram />
             </span>
           </a>
-          <a href="https://www.facebook.com/Noorlalu143/" target="_blank">
+          <a href="" target="_blank">
             <span className="bannerIcon">
             <FaWhatsapp />
             </span>
