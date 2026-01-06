@@ -9,7 +9,7 @@ const ProjectList = () => {
  <div className="flex justify-center items-center text-center m py-20">
           <Title
             title=""
-            des="LINKS OF THE PROJECTS"
+            des="MY PROJECTS"
           />
         </div>
         </FadeIn>
