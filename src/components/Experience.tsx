@@ -8,7 +8,7 @@ const Experience = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
-      <div>
+      {/* <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
@@ -57,6 +57,41 @@ const Experience = () => {
             subTitle="Kingstar Secondary School (2001 - 2010)"
             result="NEVADA"
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+          />
+        </div>
+      </div> */}
+
+
+      <div>
+        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+          <p className="text-sm text-designColor tracking-[4px]">2022 - Current</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+        </div>
+        
+        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+          <ResumeCard
+  title="Full Stack Developer"
+  subTitle="Rubitcube Information Technology LLC (2025/Dec - Present)"
+  result="Mumbai"
+  des="Working as a Full Stack Developer at Rubitcube, responsible for designing, developing, and maintaining responsive and scalable web applications. Experienced in HTML, CSS, JavaScript, React.js, Next.js, Node.js, Express.js, MongoDB, MySQL, Tailwind CSS, WordPress, and Shopify. Collaborate with designers and developers to deliver high-quality, performance-driven solutions while ensuring clean, maintainable, and efficient code."
+/>
+          <ResumeCard
+            title="Sr. Web Developer and Team Leader"
+            subTitle="F60Host LLP - (Nov/2022 - Nov/2025)"
+            result="Mumbai"
+            des="Now I am Working as Team Lead and my responsibility is complete to project on time with the help of my team meambers and i have hands on experince on Html, Css, Javascript, Reactjs, Nextjs, Tailwind, Worpress and Shopify."
+          />
+          <ResumeCard
+            title="Sr Web Developer"
+            subTitle="Fourty60 Infotech - (Oct/2022 - Dec/2022)"
+            result="Mumbai"
+            des="I have built alot of project based on templates and wordpress using themes and learn seo tools built websites on multiple CMS including Shopify, Dukaan.io, and Wordpres."
+          />
+          <ResumeCard
+            title="Front-end Developer (intern)"
+            subTitle="Fourty60 Infotech- (April/2022 - Oct/2022)"
+            result="Mumbai"
+            des="I have completed my six months internship in Fourty60 Infotech where i learn building websites using templates and Wordpress and website optimization and Seo and much more. "
           />
         </div>
       </div>
