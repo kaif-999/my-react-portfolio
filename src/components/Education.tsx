@@ -35,7 +35,7 @@ const Education = () => {
           />
         </div>
       </div>
-      {/* part Two */}
+      {/* part Two
 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
@@ -62,7 +62,7 @@ const Education = () => {
             des="I have completed my six months internship in Fourty60 Infotech where i learn building websites using templates and Wordpress and website optimization and Seo and much more. "
           />
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 };
